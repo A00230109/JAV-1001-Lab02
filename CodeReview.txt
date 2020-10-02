@@ -1,0 +1,37 @@
+Code Review Lab02  
+
+The program analyses here three methods  
+
+The first one is Encryption/Decryption 
+
+The Encryption method asks for two things, the string to encrypt and the value of encryption which must be an integer, 
+
+If the value of encryption is too high we ask the user to give another value but I wanted to challenge that and reduce 
+
+this value automatically without asking the user to do so. 
+
+If the value is > 25 I reduce this value by 26 and I loop until this value will be <= 25, why 26? because it is the number
+
+of letters of alphabet and from a to z and return to a it will be 26 steps. 
+
+But to facilitate things, I don’t allow user to enter others than characters and he is not allowed to enter space neither. 
+
+I created two arrays for encryption and decryption that will contain encrypted and decrypted characters to show them up, 
+
+because we can’t do that with a string that is immutable. 
+
+For the decryption we do the route backwards. 
+
+ 
+
+Calculate the sum of the elements of an array. 
+
+The length of the array is an input from the user, and the elements of the array are randomly chosen between 0 and 100. 
+
+We loop inside the array to get this sum. 
+
+ 
+
+Check if an array contains a certain value. 
+
+We loop inside the array and verify any element of the array if it is equal to this value. 
